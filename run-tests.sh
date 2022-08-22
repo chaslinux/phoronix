@@ -3,7 +3,8 @@
 # First install all updates
 sudo apt update && sudo apt upgrade -y
 
-wget -O phoronix.deb https://phoronix-test-suite.com/releases/repo/pts.debian/files/phoronix-test-suite_10.8.3_all.deb
+# Updated to 10.8.4 on August 22, 2022
+wget -O phoronix.deb https://phoronix-test-suite.com/releases/repo/pts.debian/files/phoronix-test-suite_10.8.4_all.deb
 sudo dpkg -i phoronix.deb
 sudo apt --fix-broken install -y
 
