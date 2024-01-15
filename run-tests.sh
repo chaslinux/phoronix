@@ -18,5 +18,5 @@ fi
 cp -R benchmarks.txt installed-tests/ ~/.phoronix-test-suite
 rm phoronix.deb
 
-# run benchmarks against our 1st gen Core iSeries laptop
-phoronix-test-suite benchmark 2204138-TJ-LAPTOP50755
+# run graphics Benchmark based on YA Quake with OpenGL 3.0 and Anisotropic Filtering and Multisample Antialiasing on
+phoronix-test-suite benchmark 2401152-NE-YQUAKEALL70
