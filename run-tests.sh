@@ -18,5 +18,5 @@ fi
 cp -R benchmarks.txt installed-tests/ ~/.phoronix-test-suite
 rm phoronix.deb
 
-# run graphics Benchmark based on YA Quake with OpenGL 3.0 and Anisotropic Filtering and Multisample Antialiasing on
-phoronix-test-suite benchmark 2401152-NE-YQUAKEALL70
+# run graphics Benchmark based on Xonotic at 1024x768 with High detail on
+phoronix-test-suite benchmark https://openbenchmarking.org/result/2401161-NE-XONOTIC1037
