@@ -19,4 +19,4 @@ cp -R benchmarks.txt installed-tests/ ~/.phoronix-test-suite
 rm phoronix.deb
 
 # run graphics Benchmark based on Xonotic at 1024x768 with High detail on
-phoronix-test-suite benchmark https://openbenchmarking.org/result/2401161-NE-XONOTIC1037
+phoronix-test-suite benchmark 2401161-NE-XONOTIC1037
