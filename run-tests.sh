@@ -5,7 +5,7 @@ sudo apt update && sudo apt upgrade -y
 
 # Wrapped this in if statement to only install of pts isn't present already
 if [ ! -f /usr/bin/phoronix-test-suite ]; then
-	wget -O phoronix.deb https://phoronix-test-suite.com/releases/repo/pts.debian/files/phoronix-test-suite_10.8.4_all.deb
+	wget -O phoronix.deb https://phoronix-test-suite.com/releases/repo/pts.debian/files/phoronix-test-suite_10.8.6_all.deb
 	sudo dpkg -i phoronix.deb
 	sudo apt --fix-broken install -y
 fi
